@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:37923",
+      "sslPort": 0
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "DB_CONNECTION": "Data Source=DESKTOP-KFOM39R\\SQLEXPRESS;Initial Catalog=DB_CRUD;Integrated Security=True",
+        "DATABASE": "SQLSERVER",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MIGRATION": "APLICAR"
+      }
+    },
+    "application": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
+    }
+  }
+}
